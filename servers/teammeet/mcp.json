@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "teammeet": {
+      "url": "https://teammeet.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${TEAMMEET_API_KEY}"
+      }
+    }
+  }
+}

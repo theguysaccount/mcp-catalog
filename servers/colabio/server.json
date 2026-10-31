@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/colabio",
+  "title": "Colabio",
+  "description": "Read workforce analytics for organizations the signed-in user is authorized to access.",
+  "version": "1.0.0",
+  "websiteUrl": "https://colabio.org",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/colabio"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.colabio.org/mcp"
+    }
+  ]
+}

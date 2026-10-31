@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/mylastwill",
+  "title": "MyLastWill",
+  "description": "Prepare a U.S. will and look up state will requirements, charities and bequest language.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mylastwill.org",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/mylastwill"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mylastwill.org/mcp"
+    }
+  ]
+}

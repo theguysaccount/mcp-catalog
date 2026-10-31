@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/teammeet",
+  "title": "TeamMeet",
+  "description": "Start meetings and work with meeting transcripts, notes, recordings and follow-up tasks.",
+  "version": "1.0.0",
+  "websiteUrl": "https://teammeet.ai",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/teammeet"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://teammeet.ai/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer followed by your own TeamMeet API key. Create a key using the developer guide. Never embed a key in a shared configuration.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

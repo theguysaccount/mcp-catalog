@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/tellscreen",
+  "title": "Tellscreen",
+  "description": "Read screen recording links: summaries, transcripts, suggested changes and frame images.",
+  "version": "1.0.0",
+  "websiteUrl": "https://tellscreen.com",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/tellscreen"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tellscreen.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "geminilaunch": {
+      "url": "https://www.geminilaunch.com/api/mcp"
+    }
+  }
+}

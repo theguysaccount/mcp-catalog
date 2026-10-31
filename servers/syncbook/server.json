@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/syncbook",
+  "title": "Syncbook",
+  "description": "Find people you can help and who can help you, and prepare a profile for human review.",
+  "version": "1.0.0",
+  "websiteUrl": "https://syncbook.org",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/syncbook"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://syncbook.org/mcp/public"
+    }
+  ]
+}

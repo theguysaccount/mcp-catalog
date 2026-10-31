@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/geminilaunch",
+  "title": "GeminiLaunch",
+  "description": "Connect a GeminiLaunch account to agents using its authenticated product MCP tools.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.geminilaunch.com",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/geminilaunch"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.geminilaunch.com/api/mcp"
+    }
+  ]
+}

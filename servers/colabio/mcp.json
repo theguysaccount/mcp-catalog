@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "colabio": {
+      "url": "https://api.colabio.org/mcp"
+    }
+  }
+}

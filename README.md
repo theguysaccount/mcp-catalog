@@ -20,6 +20,7 @@ Official connection metadata for our hosted products. Each server directory incl
 | [Democracy AI / RealRep research](https://app.realrep.org) | `https://app.realrep.org/api/mcp` | [Connect](https://app.realrep.org/agents.json) |
 | [INTERNETS.FUN room reader](https://internets.fun) | `https://internets.fun/api/mcp` | [Connect](https://internets.fun/agents.json) |
 | [Unredactus metadata research](https://unredactus.com) | `https://unredactus.com/api/mcp` | [Connect](https://unredactus.com/agents.json) |
+| [Swissmote public jobs](https://swissmote.com) | `https://api.swissmote.com/v2/api/public/mcp` | [Connect](https://api.swissmote.com/v2/api/public/mcp/info) |
 
 Publishing to the official MCP Registry makes these endpoints discoverable to registry consumers. Each client and app directory controls its own indexing and review. This catalog does not claim approval by Google, OpenAI or any other directory.
 

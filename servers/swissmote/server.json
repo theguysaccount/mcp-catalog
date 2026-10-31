@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/swissmote",
+  "title": "Swissmote public jobs",
+  "description": "Search published Swissmote openings with public apply links and confidentiality controls.",
+  "version": "1.0.0",
+  "websiteUrl": "https://swissmote.com",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/swissmote"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.swissmote.com/v2/api/public/mcp"
+    }
+  ]
+}

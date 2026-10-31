@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "swissmote-public-jobs": {
+      "url": "https://api.swissmote.com/v2/api/public/mcp"
+    }
+  }
+}

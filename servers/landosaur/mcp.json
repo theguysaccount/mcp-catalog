@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "landosaur": {
+      "type": "http",
+      "url": "https://landosaur.com/mcp"
+    }
+  }
+}

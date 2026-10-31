@@ -10,12 +10,10 @@ Official connection metadata for our hosted products. Each server directory incl
 | [TeamMeet](https://teammeet.ai) | `https://teammeet.ai/mcp` | [Connect](https://teammeet.ai/developers) |
 | [GeminiLaunch](https://www.geminilaunch.com) | `https://www.geminilaunch.com/api/mcp` | [Connect](https://www.geminilaunch.com/mcp) |
 | [Colabio](https://colabio.org) | `https://api.colabio.org/mcp` | [Connect](https://colabio.org/mcp) |
-
 | [Election.org](https://election.org) | `https://election.org/api/mcp` | [Connect](https://election.org/data/api/access) |
-
 | [3ndgam3](https://3ndgam3.org) | `https://3ndgam3.org/api/mcp` | [Connect](https://3ndgam3.org/skill.md) |
-
 | [Creditable](https://creditable.vc) | `https://creditable.vc/mcp` | [Connect](https://creditable.vc/agents.md) |
+| [Landosaur](https://landosaur.com) | `https://landosaur.com/mcp` | [Connect](https://landosaur.com/llms.txt) |
 
 Publishing to the official MCP Registry makes these endpoints discoverable to registry consumers. Each client and app directory controls its own indexing and review. This catalog does not claim approval by Google, OpenAI or any other directory.
 

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/landosaur",
+  "title": "Landosaur",
+  "description": "Search observed public land listings and compare source-linked prices, evidence and freshness.",
+  "version": "1.0.0",
+  "websiteUrl": "https://landosaur.com",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/landosaur"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://landosaur.com/mcp"
+    }
+  ]
+}

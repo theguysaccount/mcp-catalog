@@ -15,6 +15,8 @@ Official connection metadata for our hosted products. Each server directory incl
 
 | [3ndgam3](https://3ndgam3.org) | `https://3ndgam3.org/api/mcp` | [Connect](https://3ndgam3.org/skill.md) |
 
+| [Creditable](https://creditable.vc) | `https://creditable.vc/mcp` | [Connect](https://creditable.vc/agents.md) |
+
 Publishing to the official MCP Registry makes these endpoints discoverable to registry consumers. Each client and app directory controls its own indexing and review. This catalog does not claim approval by Google, OpenAI or any other directory.
 
 Registry releases use the manually dispatched `Publish MCP registry entries` workflow with GitHub OIDC. No personal access token is sent to the registry.

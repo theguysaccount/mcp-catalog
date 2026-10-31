@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "creditable": {
+      "type": "streamable-http",
+      "url": "https://creditable.vc/mcp"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/election-org",
+  "title": "Election.org",
+  "description": "Read sourced U.S. civic records: candidates, offices, campaign finance, elections and governments.",
+  "version": "1.0.0",
+  "websiteUrl": "https://election.org",
+  "repository": {
+    "url": "https://github.com/theguysaccount/election-org-public-record",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://election.org/api/mcp"
+    }
+  ]
+}

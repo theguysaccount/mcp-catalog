@@ -40,7 +40,7 @@ jobs:
           REQUESTED_SERVER: ${{ inputs.server }}
         run: |
           python3 - <<'PYCODE'
-          import os, pathlib, subprocess
+          import os, pathlib, subprocess, json, urllib.request, urllib.parse, urllib.error
           root=pathlib.Path('servers')
           names=sorted(p.name for p in root.iterdir() if p.is_dir() and (p/'server.json').is_file())
           selected=os.environ['REQUESTED_SERVER']
@@ -48,6 +48,17 @@ jobs:
               raise SystemExit('Unknown server directory')
           for name in names if selected == 'all' else [selected]:
               path=str(root/name/'server.json')
+              manifest=json.loads(pathlib.Path(path).read_text())
+              detail='https://registry.modelcontextprotocol.io/v0.1/servers/'+urllib.parse.quote(manifest['name'],safe='')+'/versions/'+urllib.parse.quote(manifest['version'],safe='')
+              try:
+                  with urllib.request.urlopen(detail,timeout=30) as response:
+                      existing=json.load(response)['server']
+                  if existing.get('remotes') != manifest.get('remotes'):
+                      raise SystemExit('Published version has different remotes: '+manifest['name'])
+                  print('Already registered: '+manifest['name'],flush=True)
+                  continue
+              except urllib.error.HTTPError as error:
+                  if error.code != 404: raise
               subprocess.run(['./mcp-publisher','validate',path],check=True)
               subprocess.run(['./mcp-publisher','publish',path],check=True)
           PYCODE

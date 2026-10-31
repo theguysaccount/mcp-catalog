@@ -11,6 +11,8 @@ Official connection metadata for our hosted products. Each server directory incl
 | [GeminiLaunch](https://www.geminilaunch.com) | `https://www.geminilaunch.com/api/mcp` | [Connect](https://www.geminilaunch.com/mcp) |
 | [Colabio](https://colabio.org) | `https://api.colabio.org/mcp` | [Connect](https://colabio.org/mcp) |
 
+| [Election.org](https://election.org) | `https://election.org/api/mcp` | [Connect](https://election.org/data/api/access) |
+
 Publishing to the official MCP Registry makes these endpoints discoverable to registry consumers. Each client and app directory controls its own indexing and review. This catalog does not claim approval by Google, OpenAI or any other directory.
 
 Registry releases use the manually dispatched `Publish MCP registry entries` workflow with GitHub OIDC. No personal access token is sent to the registry.

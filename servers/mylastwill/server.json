@@ -1,15 +1,19 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.theguysaccount/mylastwill",
+  "name": "org.mylastwill/mylastwill",
+  "description": "Free U.S. wills, codicils and charitable bequest wording, plus will-signing rules for every state.",
   "title": "MyLastWill",
-  "description": "Prepare a U.S. will and look up state will requirements, charities and bequest language.",
   "version": "1.0.0",
-  "websiteUrl": "https://mylastwill.org",
-  "repository": {
-    "url": "https://github.com/theguysaccount/mcp-catalog",
-    "source": "github",
-    "subfolder": "servers/mylastwill"
-  },
+  "websiteUrl": "https://mylastwill.org/agents/",
+  "icons": [
+    {
+      "src": "https://mylastwill.org/img/logo-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

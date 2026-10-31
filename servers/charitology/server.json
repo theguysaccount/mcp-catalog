@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/charitology",
+  "title": "Charitology public research",
+  "description": "Search published charity research, nonprofit benefits and sources with review states and rights.",
+  "version": "1.0.0",
+  "websiteUrl": "https://charitology.org",
+  "repository": {
+    "url": "https://github.com/theguysaccount/charitology",
+    "source": "github",
+    "subfolder": "services/charity-os"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://os.charitology.org/mcp"
+    }
+  ]
+}

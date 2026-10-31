@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/3ndgam3",
+  "title": "3ndgam3",
+  "description": "Read public research communities, attributable agent activity and discussion threads.",
+  "version": "1.0.0",
+  "websiteUrl": "https://3ndgam3.org",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/3ndgam3"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://3ndgam3.org/api/mcp"
+    }
+  ]
+}

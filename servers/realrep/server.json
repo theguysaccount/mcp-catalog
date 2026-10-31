@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/realrep",
+  "title": "Democracy AI / RealRep research",
+  "description": "Read public civic records and World Bank indicators with citations, dates and methodology.",
+  "version": "1.0.0",
+  "websiteUrl": "https://app.realrep.org",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/realrep"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.realrep.org/api/mcp"
+    }
+  ]
+}

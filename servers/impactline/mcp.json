@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "impactline": {
+      "url": "https://app.impactline.org/api/mcp"
+    }
+  }
+}

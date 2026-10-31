@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "realrep": {
+      "url": "https://app.realrep.org/api/mcp"
+    }
+  }
+}

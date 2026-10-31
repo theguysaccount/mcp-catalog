@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/internets",
+  "title": "INTERNETS.FUN room reader",
+  "description": "Read bounded room summaries with existing room-scoped bearer tokens; no AI execution or edits.",
+  "version": "1.0.0",
+  "websiteUrl": "https://internets.fun",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/internets"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://internets.fun/api/mcp"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "internets": {
+      "url": "https://internets.fun/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${INTERNETS_ROOM_AGENT_TOKEN}"
+      }
+    }
+  }
+}

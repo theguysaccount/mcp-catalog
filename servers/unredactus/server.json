@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/unredactus",
+  "title": "Unredactus metadata research",
+  "description": "Search public document metadata and pinned snapshot provenance, excluding passages and identifiers.",
+  "version": "1.0.0",
+  "websiteUrl": "https://unredactus.com",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/unredactus"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://unredactus.com/api/mcp"
+    }
+  ]
+}

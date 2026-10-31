@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/impactline",
+  "title": "ImpactLine public research",
+  "description": "Search public laws and implementation evidence with sources, scope limits and dated coverage.",
+  "version": "1.0.0",
+  "websiteUrl": "https://app.impactline.org",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/impactline"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.impactline.org/api/mcp"
+    }
+  ]
+}

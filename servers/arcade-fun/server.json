@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/arcade-fun",
+  "title": "Arcade.fun",
+  "description": "Discover playable browser experiences and manage creator-owned game uploads on Arcade.fun.",
+  "version": "1.0.0",
+  "websiteUrl": "https://arcade.fun",
+  "repository": {
+    "url": "https://github.com/theguysaccount/mcp-catalog",
+    "source": "github",
+    "subfolder": "servers/arcade-fun"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arcade.fun/mcp"
+    }
+  ]
+}

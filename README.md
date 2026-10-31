@@ -14,6 +14,7 @@ Official connection metadata for our hosted products. Each server directory incl
 | [3ndgam3](https://3ndgam3.org) | `https://3ndgam3.org/api/mcp` | [Connect](https://3ndgam3.org/skill.md) |
 | [Creditable](https://creditable.vc) | `https://creditable.vc/mcp` | [Connect](https://creditable.vc/agents.md) |
 | [Landosaur](https://landosaur.com) | `https://landosaur.com/mcp` | [Connect](https://landosaur.com/llms.txt) |
+| [Arcade.fun](https://arcade.fun) | `https://arcade.fun/mcp` | Public catalog and creator tools |
 
 Publishing to the official MCP Registry makes these endpoints discoverable to registry consumers. Each client and app directory controls its own indexing and review. This catalog does not claim approval by Google, OpenAI or any other directory.
 

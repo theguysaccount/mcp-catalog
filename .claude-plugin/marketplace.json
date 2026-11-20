@@ -1,0 +1,16 @@
+{
+  "name": "creditable-founder-tools",
+  "owner": {
+    "name": "Creditable",
+    "email": "jack@creditable.vc",
+    "url": "https://creditable.vc"
+  },
+  "plugins": [
+    {
+      "name": "creditable",
+      "source": "./plugins/creditable",
+      "description": "Find public investor pitch routes, startup credit guides and opt-in cofounder introductions.",
+      "version": "1.1.0"
+    }
+  ]
+}

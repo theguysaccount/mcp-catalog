@@ -1,0 +1,13 @@
+{
+  "name": "creditable",
+  "version": "1.1.0",
+  "description": "Find public investor pitch routes, startup credit guides and opt-in cofounder introductions.",
+  "author": {
+    "name": "Creditable",
+    "email": "jack@creditable.vc",
+    "url": "https://creditable.vc"
+  },
+  "homepage": "https://creditable.vc/agents",
+  "repository": "https://github.com/theguysaccount/mcp-catalog",
+  "license": "SEE LICENSE IN LICENSE"
+}

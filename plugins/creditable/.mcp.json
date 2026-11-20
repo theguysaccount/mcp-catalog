@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "creditable": {
+      "type": "http",
+      "url": "https://creditable.vc/mcp/discovery"
+    }
+  }
+}

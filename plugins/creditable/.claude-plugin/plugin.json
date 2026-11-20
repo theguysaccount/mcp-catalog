@@ -9,5 +9,6 @@
   },
   "homepage": "https://creditable.vc/agents",
   "repository": "https://github.com/theguysaccount/mcp-catalog",
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "privacyPolicyUrl": "https://creditable.vc/agents#discovery-privacy"
 }

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "newsatoshi-commons": {
+      "url": "https://commons.newsatoshi.org/mcp"
+    }
+  }
+}
